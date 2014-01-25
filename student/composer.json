@@ -1,0 +1,24 @@
+{
+    "name": "wpa10/student",
+    "description": "",
+    "authors": [
+        {
+            "name": "wpa10",
+            "email": "myanmarlinks.net@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers"
+        ],
+        "psr-0": {
+            "Wpa10\\Student\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
